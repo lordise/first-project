@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <style type="text/css">
+            body{
+                background-color:slategrey;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+           
+            nav{
+                background-color: black;
+                padding: 5px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                height: auto;
+            }
+            nav a:hover{
+                color: black;
+                background-color:gold ;
+            }
+            a{
+                color:lightgoldenrodyellow;
+                padding: 10px;
+                text-decoration: none;
+            }
+            h1{
+                font-family: 'Times New Roman', Times, serif;
+                
+                text-align: center;
+                color:white;
+                font-size: 50px;
+                font-weight: lighter;
+            }
+            h2{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                
+                color:white;
+                font-size: 30px;
+                font-weight: lighter;
+            }
+            table{
+                border: 0px solid;
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                
+            }
+            div.transbox{
+                background-color:lightslategray;
+                border-style: double;
+                opacity: 0.8;
+            }
+            div.transbox p{
+                font-size: 20px;
+                text-align: center;
+                color:white;
+                font-weight:lighter;}
+                        
+            .right{
+                padding-top: 0px;
+                float: right;
+            }
+           
+            h3{
+                font-size: 15px;
+            }
+            h6{
+                
+                height: 80px;
+                padding: 20px;
+            }
+            
+            .img2{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            main{
+                background-image: url(../Images/LA-01-web.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 500px;
+            }
+            section{
+                background-image: url(../Images/LA_SS_03_XL.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 500px;
+            }
+            article{
+                background-image: url(../Images/lost_ark_screeenshot_002_1920x1080.jpg);
+                background-size:cover;
+                border-style:double;
+                height: 300px;
+               
+            }
+            .p1{
+                
+                text-align:center;
+                color:black;
+            
+            }
+            .p2{
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+                color: aliceblue;
+            }
+            .p3{
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                color: whitesmoke;
+            }
+            footer{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align:center;
+                color: black;
+            }
+            
+            header{
+                background-color: #cccccc;
+                min-height: 70px;
+                padding: 15px;
+            }
+            main{
+                background-color: #dddddd;
+                min-height: 300px;
+                padding: 7.5px 15px;
+            }
+            footer{
+                background-color: #cccccc;
+                min-height: 70px;
+                padding: 15px;
+            }
+            .container{
+                width: 100%;
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .login-form{
+                width: 100%;
+                max-width: 400px;
+                margin: 20px auto;
+                background-color: #ffffff;
+                padding: 15px;
+                border: 2px dotted #cccccc;
+                border-radius: 10px;
+            }
+            h1{
+                color:darkgoldenrod;
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            .input-box{
+                margin-bottom: 10px;
+            }
+            .input-box input{
+                padding: 7.5px 15px;
+                width: 90%;
+                border: 1px solid #cccccc;
+                outline: none;
+            }
+            .btn-box{
+                text-align: center;
+                margin-top: 30px;
+            }
+            .btn-box button{
+                padding: 7.5px 15px;
+                border-radius: 2px;
+                background-color: #8d927a;
+                color: #ffffff;
+                border: none;
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="#"><img width="1%" src="../Images/LostArkIcon.png"></a> 
+            <a href="../HTML/BAIKT.html">Trang Chủ</a>
+            <a href="../HTML/news.html">Tin Tức</a>
+            <a href="../HTML/characters.html">Nhân vật</a>
+            <a href="../HTML/about.html">Cốt Truyện</a>
+            <a href="#">Hỗ Trợ</a>
+            <a href="../HTML/login.html"class="right">Đăng nhập</a>
+        </nav>
+        <main>
+            <div class="container">
+                <div class="login-form">
+                    <form action="" method="post">
+                        <h1>Đăng nhập vào website</h1>
+                        <div class="input-box">
+                            <i ></i>
+                            <input type="text" placeholder="Nhập username">
+                        </div>
+                        <div class="input-box">
+                            <i ></i>
+                            <input type="password" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="btn-box">
+                            <button type="submit">
+                                Đăng nhập
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img class="img2" width="6%" src="../Images/SmilegateLogo.png">
+            <p>Website Created By Nguyễn Hữu Quốc Cường</p>
+        </footer>
+    </body>
+</html>
